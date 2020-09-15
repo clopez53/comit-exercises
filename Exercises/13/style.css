@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+}
+
+.header-links a {
+    color: red;
+}
+
+.header-links a:hover {
+    color: #00aced;
+}
+
+main p {
+    font-size: 18px;
+}
