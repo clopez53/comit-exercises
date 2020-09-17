@@ -1,0 +1,14 @@
+.header-class {
+    text-align: center;
+}
+
+.contact-form input, textarea, label {
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header-class nav {
+    display: flex;
+    justify-content: center;
+}
