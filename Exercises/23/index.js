@@ -1,6 +1,6 @@
 "use strict";
 
-let hour = prompt("enter the current hour (out of 0-23)", 0)
+let hour = Number(prompt("enter the current hour (out of 0-23)", 0));
 
 if (hour < 0 || hour > 23) {
     confirm("input is incorrect");
