@@ -1,8 +1,9 @@
 "use strict";
 
 for (let i = 1; i < 1000; i++) {
-    if (i > 400) break;
-    console.log(i);
+    sum += i;
+    if (sum > 400) break;
+    console.log(sum);
 }
 
 for (let i = 0; i <= 10; i++) {
