@@ -22,6 +22,16 @@ for (let i = 1; i < 14; i++) {
     console.log("*".repeat(i));
 }
 
+// for (let lineNumber = 1; lineNumber <= 13; lineNumber) {
+//     let stars = "";
+
+//     for (let starCount = 1; starCount <= lineNumber; starCount++) {
+//         stars = stars + "*";
+//     }
+
+//     console.log(stars);
+// }
+
 let i = 0;
 while (i <= 10) {
     console.log(i);
