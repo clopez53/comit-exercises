@@ -18,3 +18,10 @@ let reverseString = (text) => {
 
 console.log(reverseString(sentence));
 
+// let random = (min, max) => {
+//     let randomNumber = Math.random();
+//     return min + (randomNumber * (max-min));
+// }
+
+// console.log("First random value: random(12, 15)", random(12, 15));
+
