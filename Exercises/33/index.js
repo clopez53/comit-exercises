@@ -29,3 +29,13 @@ let ages = people.map(person => person.age);
 console.log(oldPeople);
 console.log(youngSasks);
 console.log(ages);
+
+
+// Bonus
+let strings = ["bongo drums", "guitar", "flute", "double bass", "xylophone","piano"];      
+
+let stripVowels =  strings.map((item) => {
+  return item.replace( /[aeiou]/g, '' ); 
+});
+
+console.log(stripVowels);
