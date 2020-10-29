@@ -32,7 +32,9 @@ console.log(ages);
 
 
 // Bonus
-let strings = ["bongo drums", "guitar", "flute", "double bass", "xylophone","piano"];      
+// let strings = ["bongo drums", "guitar", "flute", "double bass", "xylophone","piano"];      
+
+let strings = [prompt("Please enter a string")];
 
 let stripVowels =  strings.map((item) => {
   return item.replace( /[aeiou]/g, '' ); 
