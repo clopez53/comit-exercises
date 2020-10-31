@@ -34,10 +34,40 @@ console.log(ages);
 // Bonus
 // let strings = ["bongo drums", "guitar", "flute", "double bass", "xylophone","piano"];      
 
-let strings = [prompt("Please enter a string")];
+// let strings = [prompt("Please enter a string")];
 
-let stripVowels =  strings.map((item) => {
-  return item.replace( /[aeiou]/g, '' ); 
-});
+// let stripVowels =  strings.map((item) => {
+//   return item.replace( /[aeiou]/g, '' ); 
+// });
 
-console.log(stripVowels);
+// console.log(stripVowels);
+
+let sripVowels = (text) => {
+  let characters = text.split("").filter(character => {
+    
+    // let vowels = ["a","e","i","o","u","A","E","I","O","U"];
+
+    // return !vowels.includes(character);
+    
+    switch (character) {
+      case "a":
+      case "e":
+      case "i":
+      case "o":
+      case "u":
+      case "A":
+      case "E":
+      case "I":
+      case "O":
+      case "U":
+        return false;
+      default:
+        return true;
+    }
+  });
+  return characters.join("");
+}
+
+console.log(stripVowels("First String"));
+console.log(stripVowels("Second String"));
+console.log(stripVowels("Third String"));
