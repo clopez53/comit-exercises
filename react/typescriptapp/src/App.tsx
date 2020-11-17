@@ -52,7 +52,7 @@ function App() {
         <label>Student Name: {student.name}</label>
         <label>Student Age: {student.age}</label>
         <label>Student City: {student.city}</label>
-        <label>Student is Alive: {student.isAlive}</label>
+        
 
         {/* {students.map(student => <Student name={student.name} age={student.age} />)}
         {products.map(product => <ProductComponent name={product.name} description={product.description} />)} */}
