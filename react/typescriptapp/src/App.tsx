@@ -16,7 +16,7 @@ function App() {
 
   const handleChange = (event : React.ChangeEvent<HTMLInputElement>) => {
     setStudent({...student, [event.target.name] : event.target.type === "number" ? Number(event.target.value) : event.target.type === "checkbox" ? event.target.checked : event.target.value });
-  }
+  };
 
   // const handleAgeChange = (event : React.ChangeEvent<HTMLInputElement>) => {
   //   setStudent({...student, age: Number(event.target.value) });
@@ -60,5 +60,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
