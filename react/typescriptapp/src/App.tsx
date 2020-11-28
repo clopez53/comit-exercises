@@ -12,7 +12,7 @@ interface IStudent {
 
 function App() {
 
-  const [student, setStudent] = useState<IStudent>({name: '', age: 0, city:''});
+  const [student, setStudent] = useState<IStudent>({name: '', age: 0, city:'', isAlive: false});
 
   const handleChange = (event : React.ChangeEvent<HTMLInputElement>) => {
     setStudent({...student, [event.target.name] : event.target.type === "number" ? Number(event.target.value) : event.target.type === "checkbox" ? event.target.checked : event.target.value });
